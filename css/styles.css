@@ -1,12 +1,14 @@
 h1 {
-  color:black;
+  color:white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
+  font-weight: normal;
 }   
 h2 {
     text-align: center;
     font-size: small;
     font-family: sans-serif;
+    color: white;
 } 
 .header {
   padding: 60px;
@@ -16,4 +18,10 @@ h2 {
   font-size: 30px;
   background-image: url(https://images.unsplash.com/40/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbWJpbmclMjBzdGFpcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
   background max-width: 100px;
+}
+.about-section {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  background: lightgrey;
 }
