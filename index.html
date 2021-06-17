@@ -8,9 +8,11 @@
 </head>
 <body>
     <div class="header">
+        <img src="assets/logo/logo.png" alt="logo image">
     <h1>WELCOME<BR>TO DELANI STUDIOS</h1>
 
-    <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>   
+    <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>  
+        <img src="assets/mouse_click.png" alt="mouse image">     
     </div> 
 
     <div class="about-section">
@@ -28,9 +30,9 @@
 
         <table style="width:100%">
         <tr>
-            <td> <img src="assets/services_icons/design_icon.png" alt="design icon"</td>
-            <td> <img src="assets/services_icons/dev_icon.png" alt="dev icon"</td>
-            <td> <img src="assets/services_icons/product_icon.png" alt="product icon"</td>
+            <td> <img src="assets/services_icons/design_icon.png" alt="design icon" width="50px" height="50px"></td>
+            <td> <img src="assets/services_icons/dev_icon.png" alt="dev icon" width="50px" height="50px"></td>
+            <td> <img src="assets/services_icons/product_icon.png" alt="product icon"  width="50px" height="50px"></td>
           </tr>
         <tr>
             <td>DESIGN</td>
@@ -50,17 +52,17 @@
 
         <table style="width: 100%">
         <tr>
-            <td> <img src="assets/portfolio/work4.jpg" alt="work4 image"</td>
-            <td><img src="assets/portfolio/work3.jpg" alt="work3 image"</td>
-            <td><img src="assets/portfolio/work2.jpg" alt="work2 image"</td>
-            <td><img src="assets/portfolio/work1.jpg" alt="work1 image"</td>
+            <td> <img src="assets/portfolio/work4.jpg" alt="work4 image" width="200px"></td>
+            <td><img src="assets/portfolio/work3.jpg" alt="work3 image" width="200px"></td>
+            <td><img src="assets/portfolio/work2.jpg" alt="work2 image" width="200px"></td>
+            <td><img src="assets/portfolio/work1.jpg" alt="work1 image" width="200px"></td>
         </tr>     
 
         <tr>
-            <td><img src="assets/portfolio/work5.jpg" alt="work5 image"</td>
-            <td><img src="assets/portfolio/work6.jpg" alt="work6 image"</td>
-            <td><img src="assets/portfolio/work7.jpg" alt="work7 image"</td>
-            <td><img src="assets/portfolio/work8.jpg" alt="work8 image"</td>
+            <td><img src="assets/portfolio/work5.jpg" alt="work5 image"width="200px"></td>
+            <td><img src="assets/portfolio/work6.jpg" alt="work6 image"width="200px"></td>
+            <td><img src="assets/portfolio/work7.jpg" alt="work7 image"width="200px"></td>
+            <td><img src="assets/portfolio/work8.jpg" alt="work8 image"width="200px"></td>
         </tr>    
         </table>
     </div>  
@@ -79,12 +81,31 @@
             <form>
                 <label for="your message here">Your message here....</label><br>
                 <input type="text" id="your message here" name="your message here"><br>
-            </form>       
-            
-            
-
-
-    </div>   
+                <input type="button" onclick="myFunction()" value="Submit">
+            </form> 
+    </div>  
+    <div class="footer">
+        <table style="width 50%">
+        <tr>
+            <td><img src="assets/social_icons/twitter.png" alt="twitter image"></td>
+            <td><img src="assets/social_icons/dribble.png" alt="dribble image"></td>
+            <td><img src="assets/social_icons/facebook.png" alt="facebook image"></td>
+            <td><img src="assets/social_icons/g_plus.png" alt="google plus image"></td>
+            <td><img src="assets/social_icons/skype.png" alt="skype image"></td>
+            <td><img src="assets/social_icons/you_tube.png" alt="youtube image"></td>
+            <td><img src="assets/social_icons/behance.png" alt="behance image"></td>
+            <td><img src="assets/social_icons/pinterest.png" alt="pinterest image"></td>
+            <td><img src="assets/social_icons/stumble_upon.png" alt="stumble upon image"></td>
+            <td><img src="assets/social_icons/flickr.png" alt="flickr image"></td>
+        </tr>    
+        </table>  
+        <p>Delani Studios.<br>2015</p>      
+    </div>
+    <script>
+        function myFunction() {
+          document.getElementById("frm1").submit();
+        }
+        </script>
 
 </body>
 </html>
