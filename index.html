@@ -9,14 +9,25 @@
 <body>
     <div class="header">
         <img src="assets/logo/logo.png" alt="logo image">
-    <h1>WELCOME<BR>TO DELANI STUDIOS</h1>
+    <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">WELCOME<BR>TO DELANI STUDIOS</h1>
+        <script>
+            function mouseOver() {
+              document.getElementById("demo").style.color = "red";
+            }
+            
+            function mouseOut() {
+              document.getElementById("demo").style.color = "black";
+            }
+            </script>
 
-    <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>  
+    <h2>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h2>
+
         <img src="assets/mouse_click.png" alt="mouse image">     
     </div> 
 
     <div class="about-section">
         <h3>About us</h3>
+       
         <P>When you work with us, you are a part of a team of committed collaborators.<br>All aspects of our software development process are intergrated, iterative and agile.</P>
         <p>Our approach unifies design, development and<br>product management to create exceptional products.<br>We start each project by understanding your business goals,<br>the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solutions.</p>   
     </div>
@@ -87,16 +98,28 @@
     <div class="footer">
         <table style="width 50%">
         <tr>
-            <td><img src="assets/social_icons/twitter.png" alt="twitter image"></td>
-            <td><img src="assets/social_icons/dribble.png" alt="dribble image"></td>
-            <td><img src="assets/social_icons/facebook.png" alt="facebook image"></td>
-            <td><img src="assets/social_icons/g_plus.png" alt="google plus image"></td>
-            <td><img src="assets/social_icons/skype.png" alt="skype image"></td>
-            <td><img src="assets/social_icons/you_tube.png" alt="youtube image"></td>
-            <td><img src="assets/social_icons/behance.png" alt="behance image"></td>
-            <td><img src="assets/social_icons/pinterest.png" alt="pinterest image"></td>
-            <td><img src="assets/social_icons/stumble_upon.png" alt="stumble upon image"></td>
-            <td><img src="assets/social_icons/flickr.png" alt="flickr image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/twitter.png" alt="twitter image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/dribble.png" alt="dribble image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/facebook.png" alt="facebook image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/g_plus.png" alt="google plus image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/skype.png" alt="skype image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/you_tube.png" alt="youtube image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/behance.png" alt="behance image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/pinterest.png" alt="pinterest image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/stumble_upon.png" alt="stumble upon image"></td>
+            <td><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/social_icons/flickr.png" alt="flickr image"></td>
+            <script>
+                function bigImg(x) {
+                  x.style.height = "64px";
+                  x.style.width = "64px";
+                }
+                
+                function normalImg(x) {
+                  x.style.height = "32px";
+                  x.style.width = "32px";
+                }
+                </script>
+                
         </tr>    
         </table>  
         <p>Delani Studios.<br>2015</p>      

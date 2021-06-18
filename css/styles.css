@@ -16,12 +16,57 @@ h2 {
   background: #1abc9c;
   color: black;
   font-size: 30px;
-  background-image: url(https://images.unsplash.com/40/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbWJpbmclMjBzdGFpcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
-  background max-width: 100px;
+  background-image: url("../assets/backgrounds/h_img.jpg");
 }
 .about-section {
   padding: 60px;
   text-align: center;
   font-size: 20px;
   background: lightgrey;
+}
+.services-section {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  color: white;
+}
+.what-we-do-section {
+  text-align: center;
+  color: black;
+  background-color: lightgrey;
+  font-style: normal;
+  font-family: sans-serif;
+}
+h5 {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+h6 {
+  font-size: medium;
+  text-align: center;
+  background-color: lightgrey;
+}
+.portfolio-section {
+  background-color: lightgrey;
+  margin-right: -10px;
+  margin-left: -10px;
+  padding: 60px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.contact-us-section {
+  text-align: center;
+  padding: 60px;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+}
+.footer {
+  text-align: center;
 }
